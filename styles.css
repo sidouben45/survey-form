@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(15, 44, 18);
+    font-family: Montserrat;
+    color: white;
+    width: 100%;
+    margin:0;
+    height: 100vh;
+    
+    
+}
+form{
+    background-color: rgb(53, 90, 21);
+    max-width: 650px;
+    width: 60%;
+    min-width:200px;
+    margin: 0 auto;
+    padding: 50px;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 80px 15px rgb(7, 17, 6);
+    
+    
+    
+}
+
+#title{
+    
+    font-weight: 500;
+    margin-top: 1.5em ;
+    text-align: center;
+}
+#description{
+    font-family: Montserrat;
+    font-weight:500;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 1.5em;
+
+}
+input,select{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    height: 30px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    
+}
+select{
+    height: 36.5px;
+    width: 102%;
+    border: 1px solid #000000;
+    color:rgb(117, 117, 117);
+    
+}
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #ffffff;
+   
+  }
+textarea{
+    width: 100%;
+    margin: 0.7em auto;
+    font-size: 17px;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-family: Montserrat;
+    
+
+}
+
+  .inline {
+    width: 20px;
+    vertical-align:-9.5px;
+    margin: 5px;
+    
+    
+}
+label[class="optional"]{
+    font-weight: 300;
+    font-size: 16px;
+    vertical-align:1px;
+}
+label[id="check"]{
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align:1px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    vertical-align:-9.5px;
+    margin: 3px 10px 0px 0px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 45px;
+    font-size: 1.1rem;
+    background-color:rgb(55, 175, 101);
+    border-color:rgb(55, 175, 101);
+    border-radius: 2px;
+    color: white;
+    
+  }
+  .vide{
+    height: 60px;
+  }
+  form :not(label ){
+    color: #000000;
+  }
